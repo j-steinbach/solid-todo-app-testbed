@@ -1,0 +1,4 @@
+<http://localhost:3000/a/profile/private/todosnew/todos.ttl#1666795604850> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sodo-example.com/Task> .
+<http://localhost:3000/a/profile/private/todosnew/todos.ttl#1666795604850> <http://sodo-example.com/label> "c" .
+<http://localhost:3000/a/profile/private/todosnew/todos.ttl#1666795604850> <http://sodo-example.com/status> "false" .
+<http://localhost:3000/a/profile/private/todosnew/todos.ttl#1666795604850> <http://sodo-example.com/dateCreated> "Wed Oct 26 2022 16:46:44 GMT+0200 (Central European Summer Time)" .
