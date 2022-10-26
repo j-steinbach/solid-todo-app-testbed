@@ -1,0 +1,9 @@
+[submodule "CommunitySolidServer"]
+	path = CommunitySolidServer
+	url = https://github.com/CommunitySolidServer/CommunitySolidServer
+[submodule "solid-todo-app-react"]
+	path = solid-todo-app-react
+	url = https://github.com/SolidLabResearch/solid-todo-app-react
+[submodule "solid-todo-app-vue"]
+	path = solid-todo-app-vue
+	url = https://github.com/SolidLabResearch/solid-todo-app-vue
