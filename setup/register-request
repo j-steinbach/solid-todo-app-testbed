@@ -1,0 +1,10 @@
+curl -v -H 'Content-Type: application/json' -d '{
+	"email": "a@a.a",
+	"password": "a",
+	"confirmPassword": "a",
+	"createWebId": true,
+	"register": true,
+	"createPod": true,
+	"rootPod": false,
+	"podName": "a"
+}' http://localhost:3000/idp/register/
