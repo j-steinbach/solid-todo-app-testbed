@@ -1,0 +1,1 @@
+{"iat":1666790804,"exp":1668000404,"accountId":"http://localhost:3000/a/profile/card#me","clientId":"4P747iP3CeHFzefXZgINa","kind":"Grant","jti":"7QL58xgRDF5KWppzo32j0lOYmfOajsBIyxkCbsSo5-y","openid":{"scope":"openid offline_access webid"},"resources":{"http://example.com/":"webid"}}

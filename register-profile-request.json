@@ -6,5 +6,5 @@
 	"register": true,
 	"createPod": true,
 	"rootPod": false,
-	"podName": "test"
+	"podName": "a"
 }

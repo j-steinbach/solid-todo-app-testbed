@@ -1,0 +1,1 @@
+curl -v -X POST -H “Content-Type: application/json” -d “@register-profile-request.json” http://localhost:3000/idp/register/
