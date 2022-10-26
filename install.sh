@@ -1,4 +1,5 @@
 #!/bin/sh
+# This script installs the CSS and both todo-apps
 
 echo running install script
 echo -e "\n\n"
