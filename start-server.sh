@@ -1,5 +1,6 @@
 #!/bin/sh
-echo Starting the CSS from $(pwd)..
+echo Starting the CSS!
 
+cd ./CommunitySolidServer
 # specify port?
-node ./CommunitySolidServer/bin/server.js -- -c ./CommunitySolidServer/config/file.json -f ./css-data/ -p 3000
+npm start -- -c ./config/file-no-setup.json -f ../css-data/ -p 3000

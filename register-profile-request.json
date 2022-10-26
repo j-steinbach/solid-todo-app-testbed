@@ -1,0 +1,10 @@
+{
+	"email": "a@a.a",
+	"password": "a",
+	"confirmPassword": "a",
+	"createWebId": true,
+	"register": true,
+	"createPod": true,
+	"rootPod": false,
+	"podName": "test"
+}
