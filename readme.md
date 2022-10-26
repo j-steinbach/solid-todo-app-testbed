@@ -2,7 +2,7 @@
 
 This repository sets up a local CSS instance, creates a default user and then (future!) starts both solid-todo-apps to run some tests.
 
-TODO: more automation :)
+Note: This is badly glued together and not production-ready :)
 
 ## Install
 
@@ -21,3 +21,18 @@ Alternatively we can also do it with _httpie_: `↳ http POST localhost:3000/idp
 See the [CSS docs](https://github.com/CommunitySolidServer/CommunitySolidServer/blob/9a5fc674f3f98c1d33122f5cde8a501449db6c1f/documentation/markdown/usage/identity-provider.md#json-api) for more info.
 
 Note: this needs the server to be running!
+
+## TODOs
+
+Immediate
+
+- [ ] add .gitignore (which server files in _css-data_ can be ignored?
+- [ ] setup default `index.ttl` file with some tasks
+- [ ] run tests!
+
+Later
+
+- [ ] _kill-server.sh_ script because I am pretty sure this one leaks memory somewhere and doesn't die.. `pgrep node` and `pkill node` does the job though
+- [ ] more automation (automatically create the default user)
+- [ ] be able to configure the CSS (port, ...)
+- [ ] combine all the scripts (options, choice)
