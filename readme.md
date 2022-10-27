@@ -26,8 +26,9 @@ Note: this needs the server to be running!
 
 Immediate
 
-- [ ] add .gitignore (which server files in _css-data_ can be ignored?
+- [x] add .gitignore (which server files in _css-data_ can be ignored?
     - [ ] should we store the `css-data/.internal` folder?
+        - E: currently the `.internal/.idp/` folder is excluded
 - [x] pre-populate the default `index.ttl` file with tasks some
     - E: we decided against having a default `index.ttl` (or folder) -- this is something that should be done client-side (to see if the folder/index creation actually works)
     - in the future the app might create some tasks by itself for testing-purposes
@@ -35,7 +36,8 @@ Immediate
 
 Later
 
-- [ ] _kill-server.sh_ script because I am pretty sure this one leaks memory somewhere and doesn't die.. `pgrep node` and `pkill node` does the job though
+- [x] _kill-server.sh_ script because I am pretty sure this one leaks memory somewhere and doesn't die.. `pgrep node` and `pkill node` does the job though
+    - E: I forgot to remove a `&`...
 - [ ] more automation (automatically create the default user)
 - [ ] be able to configure the CSS (port, ...)
 - [ ] combine all the scripts (options, choice)
