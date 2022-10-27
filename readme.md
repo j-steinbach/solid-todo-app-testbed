@@ -27,8 +27,11 @@ Note: this needs the server to be running!
 Immediate
 
 - [ ] add .gitignore (which server files in _css-data_ can be ignored?
-- [ ] setup default `index.ttl` file with some tasks
-- [ ] run tests!
+    - [ ] should we store the `css-data/.internal` folder?
+- [x] pre-populate the default `index.ttl` file with tasks some
+    - E: we decided against having a default `index.ttl` (or folder) -- this is something that should be done client-side (to see if the folder/index creation actually works)
+    - in the future the app might create some tasks by itself for testing-purposes
+- [ ] setup/run some tests!
 
 Later
 
@@ -36,3 +39,4 @@ Later
 - [ ] more automation (automatically create the default user)
 - [ ] be able to configure the CSS (port, ...)
 - [ ] combine all the scripts (options, choice)
+- [ ] remove root `.acl` file? (currently allows free Read, Write, Control for everyone?)
