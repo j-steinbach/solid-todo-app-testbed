@@ -5,7 +5,7 @@ echo running install script
 echo -e "\n\n"
 
 echo installing CommunitySolidServer..
-cd CommunitySolidServer
+cd CommunitySolidServer || exit
 npm ci
 cd ..
 echo -e "\n\n"
