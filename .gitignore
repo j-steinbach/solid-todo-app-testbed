@@ -3,4 +3,5 @@
 *.log
 tmp/
 
+# this way we have to authorize on each new host (which is good, because it tests the authentification!)
 css-data/.internal/.idp/
